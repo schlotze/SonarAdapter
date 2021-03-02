@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>SonarAdapter</groupId>
+  <groupId>eu.uqasar.adapter</groupId>
   <artifactId>SonarAdapter</artifactId>
-  <version>1.1</version>
+  <version>2.0</version>
 
   <name>SonarAdapter</name>
   <inceptionYear>2014</inceptionYear>
@@ -16,9 +16,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>uQasarAdapter</groupId>
+      <groupId>eu.uqasar.adapter</groupId>
       <artifactId>uQasarAdapter</artifactId>
-      <version>1.0</version>
+      <version>2.1.0</version>
     </dependency>
 
     <dependency>
@@ -28,9 +28,9 @@
     </dependency>
 
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.16</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.14.0</version>
     </dependency>
 
     <dependency>
